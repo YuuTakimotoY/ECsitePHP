@@ -1,0 +1,111 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>PHPECサイト</Name>
+    <ProjectGuid>{0833fe16-2c02-46a9-8896-c5f44e18c9fb}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <RuntimeVersion>7.1</RuntimeVersion>
+    <ProjectHome />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="include\left_pane.php" />
+    <Compile Include="index.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="common\" />
+    <Folder Include="common\css\" />
+    <Folder Include="common\img\" />
+    <Folder Include="img\" />
+    <Folder Include="img\thumb2\" />
+    <Folder Include="img\thumb\" />
+    <Folder Include="include\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="common\css\base.css" />
+    <Content Include="common\img\bg_body.gif" />
+    <Content Include="common\img\bg_box_b.gif" />
+    <Content Include="common\img\bg_box_m.gif" />
+    <Content Include="common\img\bg_box_t.gif" />
+    <Content Include="common\img\bg_foot.gif" />
+    <Content Include="common\img\bg_main.gif" />
+    <Content Include="common\img\bg_main_b.gif" />
+    <Content Include="common\img\bg_main_m.gif" />
+    <Content Include="common\img\bg_main_t.gif" />
+    <Content Include="common\img\bt1.gif" />
+    <Content Include="common\img\bt1_f2.gif" />
+    <Content Include="common\img\bt2.gif" />
+    <Content Include="common\img\bt2_f2.gif" />
+    <Content Include="common\img\bt3.gif" />
+    <Content Include="common\img\bt3_2.gif" />
+    <Content Include="common\img\bt3_2_f2.gif" />
+    <Content Include="common\img\bt3_f2.gif" />
+    <Content Include="common\img\bt_login.gif" />
+    <Content Include="common\img\bt_logout.gif" />
+    <Content Include="common\img\bt_search.gif" />
+    <Content Include="common\img\t1.gif" />
+    <Content Include="common\img\t2.gif" />
+    <Content Include="common\img\t4.gif" />
+    <Content Include="common\img\t5.gif" />
+    <Content Include="common\img\t6.gif" />
+    <Content Include="common\img\t7.gif" />
+    <Content Include="common\img\title.gif" />
+    <Content Include="img\EG001.jpg" />
+    <Content Include="img\EG007.jpg" />
+    <Content Include="img\EG013.jpg" />
+    <Content Include="img\EG016.jpg" />
+    <Content Include="img\EG017.jpg" />
+    <Content Include="img\EG024.jpg" />
+    <Content Include="img\EG026.jpg" />
+    <Content Include="img\EG028.jpg" />
+    <Content Include="img\EG040.jpg" />
+    <Content Include="img\EG041.jpg" />
+    <Content Include="img\EG048.jpg" />
+    <Content Include="img\EG050.jpg" />
+    <Content Include="img\EG053.jpg" />
+    <Content Include="img\EG054.jpg" />
+    <Content Include="img\EG056.jpg" />
+    <Content Include="img\EG064.jpg" />
+    <Content Include="img\sample_s.gif" />
+    <Content Include="img\thumb2\EG001.jpg" />
+    <Content Include="img\thumb2\EG007.jpg" />
+    <Content Include="img\thumb2\EG013.jpg" />
+    <Content Include="img\thumb2\EG016.jpg" />
+    <Content Include="img\thumb2\EG017.jpg" />
+    <Content Include="img\thumb2\EG024.jpg" />
+    <Content Include="img\thumb2\EG026.jpg" />
+    <Content Include="img\thumb2\EG028.jpg" />
+    <Content Include="img\thumb2\EG040.jpg" />
+    <Content Include="img\thumb2\EG041.jpg" />
+    <Content Include="img\thumb2\EG048.jpg" />
+    <Content Include="img\thumb2\EG050.jpg" />
+    <Content Include="img\thumb2\EG053.jpg" />
+    <Content Include="img\thumb2\EG054.jpg" />
+    <Content Include="img\thumb2\EG056.jpg" />
+    <Content Include="img\thumb2\EG064.jpg" />
+    <Content Include="img\thumb\EG001.jpg" />
+    <Content Include="img\thumb\EG007.jpg" />
+    <Content Include="img\thumb\EG013.jpg" />
+    <Content Include="img\thumb\EG016.jpg" />
+    <Content Include="img\thumb\EG017.jpg" />
+    <Content Include="img\thumb\EG024.jpg" />
+    <Content Include="img\thumb\EG026.jpg" />
+    <Content Include="img\thumb\EG028.jpg" />
+    <Content Include="img\thumb\EG040.jpg" />
+    <Content Include="img\thumb\EG041.jpg" />
+    <Content Include="img\thumb\EG048.jpg" />
+    <Content Include="img\thumb\EG050.jpg" />
+    <Content Include="img\thumb\EG053.jpg" />
+    <Content Include="img\thumb\EG054.jpg" />
+    <Content Include="img\thumb\EG056.jpg" />
+    <Content Include="img\thumb\EG064.jpg" />
+  </ItemGroup>
+</Project>
