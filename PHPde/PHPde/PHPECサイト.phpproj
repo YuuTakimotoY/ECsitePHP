@@ -19,6 +19,9 @@
   <ItemGroup>
     <Compile Include="include\left_pane.php" />
     <Compile Include="index.php" />
+    <Compile Include="cart.php" />
+    <Compile Include="itemdetail.php" />
+    <Compile Include="member.php" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="common\" />

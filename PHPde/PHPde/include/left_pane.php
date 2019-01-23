@@ -9,7 +9,7 @@
 	{
 ?>
         <!-- ログインフォーム（非ログイン時） -->
-        <form name="login_form" action="item_list.php" method="post">
+        <form name="login_form" action="index.php" method="post">
         <input type="hidden" name="cmd" value="do_login"/>
         <div class="box">
           <div class="top"><img src="common/img/t1.gif" alt="ログイン" /></div>
@@ -39,7 +39,7 @@
 	// ログイン済の時は、以下の if 文に入ります。
 	} else {
 ?>
-        <form name="login_form" action="itemlist.php" method="post">
+        <form name="login_form" action="index.php" method="post">
         <input type="hidden" name="cmd" value="do_logout"/>
 
         <!-- /ログインフォーム -->
@@ -56,7 +56,7 @@
 ?>
         <!-- /ウェルカム -->
         <!-- 商品検索 -->
-        <form name="login_form" action="item_list.php" method="post">
+        <form name="login_form" action="index.php" method="post">
         <input type="hidden" name="cmd" value="do_search"/>
         <div class="box" id="search">
           <div class="top"><img src="common/img/t2.gif" alt="商品検索" /></div>
@@ -85,7 +85,7 @@
         
         <!-- 共通メニュー -->
         <ul class="menu">
-          <li><a href="item_list.php"><img src="common/img/bt1.gif" alt="商品一覧" name="Image1" width="172" height="38" id="Image1" onmouseover="MM_swapImage('Image1','','common/img/bt1_f2.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li>
+          <li><a href="index.php"><img src="common/img/bt1.gif" alt="商品一覧" name="Image1" width="172" height="38" id="Image1" onmouseover="MM_swapImage('Image1','','common/img/bt1_f2.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li>
           <li><a href="cart.php"><img src="common/img/bt2.gif" alt="カートの中" name="Image2" width="172" height="38" id="Image2" onmouseover="MM_swapImage('Image2','','common/img/bt2_f2.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li>
 <?php
 	// ログイン未の場合
